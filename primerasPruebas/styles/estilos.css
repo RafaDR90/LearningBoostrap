@@ -15,5 +15,13 @@
     
 }
 body{
+    /*Sustituimos la de boostrap por la nuestra*/
+
     font-family: var(--main-font),var(--alternative-font);
+}
+.hero{
+    background-image: url('../alicia-en-el-pais-de-las-maravillas-1.jpg');
+    background-size: cover;
+    
+    
 }
