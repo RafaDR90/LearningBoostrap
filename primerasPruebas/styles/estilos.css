@@ -8,7 +8,7 @@
     --font-size: 62.5%;
     --line-height: 1.6;
     --main-color: #333;
-    --main-modal-color: #fff;
+    --main-modal-color: #ffffff86;
 
     --second-color: #fff;
     --second-color-m: #333; /*m es para transparente*/
@@ -21,7 +21,15 @@ body{
 }
 .hero{
     background-image: url('../alicia-en-el-pais-de-las-maravillas-1.jpg');
-    background-size: cover;
-    
-    
+    background-size: cover; 
+}
+.navbar-brand{
+    color: var(--second-color);
+}
+.disabled{
+    color: var(--main-modal-color) !important;
+}
+.nav-link:hover{
+    border-bottom: 0.1rem solid var(--second-color);
+    margin-bottom: -0.1rem;
 }
