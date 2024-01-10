@@ -1,0 +1,19 @@
+/* Mis Fuentes*/
+
+/* normalize */
+:root{
+    
+    --main-font:'Cuprum';
+    --alternative-font:'sans-serif';
+    --font-size: 62.5%;
+    --line-height: 1.6;
+    --main-color: #333;
+    --main-modal-color: #fff;
+
+    --second-color: #fff;
+    --second-color-m: #333; /*m es para transparente*/
+    
+}
+body{
+    font-family: var(--main-font),var(--alternative-font);
+}
